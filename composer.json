@@ -1,5 +1,5 @@
 {
-    "name": "riekusdn/craft4-bugsnag",
+    "name": "superbig/craft3-bugsnag",
     "description": "Log Craft errors/exceptions to Bugsnag.",
     "type": "craft-plugin",
     "version": "3.0.2",
@@ -11,8 +11,8 @@
         "bugsnag"
     ],
     "support": {
-        "docs": "https://github.com/riekusdn/craft4-bugsnag/blob/master/README.md",
-        "issues": "https://github.com/riekusdn/craft4-bugsnag/issues"
+        "docs": "https://github.com/sjelfull/craft3-bugsnag/blob/master/README.md",
+        "issues": "https://github.com/sjelfull/craft3-bugsnag/issues"
     },
     "license": "MIT",
     "authors": [
