@@ -1,8 +1,8 @@
 {
-    "name": "superbig/craft3-bugsnag",
+    "name": "riekusdn/craft4-bugsnag",
     "description": "Log Craft errors/exceptions to Bugsnag.",
     "type": "craft-plugin",
-    "version": "2.1.2",
+    "version": "3.0.0",
     "keywords": [
         "craft",
         "cms",
@@ -11,8 +11,8 @@
         "bugsnag"
     ],
     "support": {
-        "docs": "https://github.com/sjelfull/craft3-bugsnag/blob/master/README.md",
-        "issues": "https://github.com/sjelfull/craft3-bugsnag/issues"
+        "docs": "https://github.com/riekusdn/craft4-bugsnag/blob/master/README.md",
+        "issues": "https://github.com/riekusdn/craft4-bugsnag/issues"
     },
     "license": "MIT",
     "authors": [
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "craftcms/cms": "^3.0.0",
+        "craftcms/cms": "^4.0.0",
         "bugsnag/bugsnag": "^3.16.0"
     },
     "repositories": [
@@ -47,5 +47,16 @@
             "bugsnagService": "superbig\\bugsnag\\services\\BugsnagService"
         },
         "class": "superbig\\bugsnag\\Bugsnag"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "craftcms/rector": "dev-main"
+    },
+    "config": {
+        "allow-plugins": {
+            "yiisoft/yii2-composer": true,
+            "craftcms/plugin-installer": true
+        }
     }
 }
